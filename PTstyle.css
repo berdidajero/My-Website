@@ -82,7 +82,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 75%;
   margin-bottom: 25px;
   border: 10px solid rgb(254, 234, 254);
 }
@@ -91,7 +91,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 75%;
   margin-bottom: 25px;
   border: 5px solid rgb(187, 180, 229);
   border-radius: 10px;
@@ -109,6 +109,7 @@ body{
 
 .aboutme{
   grid-area: aboutme;
+  display: inline-block;
   color: #72449E;
   background: white;
   padding: 50px;
@@ -120,7 +121,7 @@ body{
 .goal{
   background: rgb(255, 221, 203);
   padding: 50px;
-  height: 40%;
+  height: 50%;
   width: 100%;
   color: rgb(254, 234, 254);
 }
@@ -128,7 +129,7 @@ body{
 .motto{
   background: rgb(126, 85, 93);
   padding: 50px;
-  height: 40%;
+  height: 50%;
   width: 100%;
   color: rgb(187, 180, 229);
 }
