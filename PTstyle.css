@@ -125,6 +125,14 @@ body{
   color: rgb(254, 234, 254);
 }
 
+.motto{
+  background: rgb(126, 85, 93);
+  padding: 50px;
+  height: 40%;
+  width: 100%;
+  color: rgb(181, 235, 145);
+}
+
 .content-2{
   grid-area: content-2;
   color: white;
