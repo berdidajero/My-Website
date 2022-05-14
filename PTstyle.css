@@ -107,7 +107,7 @@ body{
 }
 
 .img-style-5{
-  display: inline;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
