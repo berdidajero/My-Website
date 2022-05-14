@@ -130,16 +130,16 @@ body{
 .goal{
   background: rgb(255, 221, 203);
   padding: 50px;
-  height: 50%;
-  width: 100%;
+  height: fit-content;
+  width: fit-content;
   color: rgb(254, 234, 254);
 }
 
 .motto{
   background: rgb(126, 85, 93);
   padding: 50px;
-  height: 50%;
-  width: 100%;
+  height: fit-content;
+  width: fit-content;
   color: rgb(187, 180, 229);
 }
 
