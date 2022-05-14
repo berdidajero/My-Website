@@ -146,12 +146,20 @@ body{
 .logos{
   background: rgb(126, 85, 93);
   padding: 50px;
-  height: 50%;
+  height: 100%;
   width: 100%;
   color: rgb(187, 180, 229);
 }
 
-.content-2{
+.logos{
+  background: rgb(126, 85, 93);
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  color: rgb(187, 180, 229);
+}
+
+.hobbies{
   grid-area: content-2;
   color: white;
   background: cyan;
@@ -172,7 +180,7 @@ body{
 									grid-template-areas:
 										"menu-bar"
 										"aboutme"
-										"content-2";
+										"hobbies";
 						}
 						
 @media only screen and (max-width: 600px){	
