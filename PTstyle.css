@@ -186,3 +186,13 @@ body{
   margin-bottom: 25px;
   border: 10px solid #728C00;
 }
+
+.contact{
+  grid-area: contact;
+  color: #edb525;
+  background: #003153;
+  padding: 50px;
+  height: fit-content;
+  width: fit-content;
+  text-align: justify;
+}
