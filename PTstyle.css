@@ -197,3 +197,10 @@ body{
   width: fit-content;
   text-align: justify;
 }
+
+.contact .fa{
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 50px
+}
+
