@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container 				{
+									display: grid;
+									grid-template-columns: 1fr;
+									grid-template-rows: 80px 1fr 1fr;
+									grid-template-areas:
+										"menu-bar"
+										"aboutme"
+										"hobbies"
+						}
+
+.menu-bar{
+  grid-area: menu-bar;
+  background: #72449E;
+  text-align: center;
+  position: fixed;
+}
+
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+.menu-bar ul li{
+  width: 308px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-bar ul li:hover{
+  background-color: white;
+  border-radius: 3px;
+  color: #72449E;
+
+}
+
+.menu-bar ul li:hover a{
+  color: #72449E;
+}
+
+.menu-bar .fa{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.menu-bar ul ul{
+  display: none;
+}
+	
+.menu-bar ul li ul li{
+  outline: 3px solid #72449E;
+  border-radius: 3px
+}
+	
+.menu-bar ul li:hover > ul{
+  display: block;
+  position: absolute;
+  background: cyan;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-left: -30px;
+  text-align: center;
+}
+
+.img-style-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-bottom: 25px;
+  border: 5px solid #72449E;
+  border-radius: 10px;
+}
+
+.aboutme{
+  grid-area: aboutme;
+  display: inline-block;
+  color: #72449E;
+  background: white;
+  padding: 50px;
+  height: fit-content;
+  width: fit-content;
+  text-align: justify;
+}
+
+.motto{
+  background: rgb(126, 85, 93);
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  color: rgb(187, 180, 229);
+}
+
+.img-style-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: 25px;
+  border: 10px solid rgb(254, 234, 254);
+}
+
+.goal{
+  background: rgb(255, 221, 203);
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  color: rgb(254, 234, 254);
+}
+
+.img-style-3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: 25px;
+  border: 10px solid rgb(187, 180, 229);
+}
+
+.hobbies{
+  grid-area: hobbies;
+  color: white;
+  background: cyan;
+  padding: 50px;
+  height: fit-content;
+  width: fit-content;
+  text-align: justify;
+}
+
+.img-style-4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.logos{
+  background: white;
+  padding: 50px;
+  height: 50%;
+  width: 100%;
+  color: cyan;
+}
+
+.img-style-5{
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 25%;
+  margin-bottom: 25px;
+  border: 10px solid cyan;
+}
+
+.posters{
+  background: #DFFF00;
+  padding: 50px;
+  height: 50%;
+  width: 100%;
+  color: #728C00;
+}
+
+.img-style-6{
+  display: inline-block;
+  margin-left: 12%;
+  margin-right: 12%;
+  width: 25%;
+  margin-bottom: 25px;
+  border: 10px solid #728C00;
+}
