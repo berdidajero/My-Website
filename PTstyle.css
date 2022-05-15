@@ -204,3 +204,10 @@ body{
   font-size: large;
 }
 
+.contact .a{
+  text-decoratin: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: large;
+}
+
