@@ -201,13 +201,14 @@ body{
 .contact .fa{
   margin-right: 5px;
   margin-left: 5px;
-  font-size: large;
+  font-size: 100px;
+  color: #edb525;
 }
 
 .contact .a{
   text-decoratin: none;
   margin-right: 5px;
   margin-left: 5px;
-  font-size: large;
+  font-size: 100px;
+  color: #edb525;
 }
-
